@@ -1,7 +1,5 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background: url('../img/body.png') no-repeat center center fixed;
-    background-size: cover;
 }
 
 
@@ -59,8 +57,8 @@ div.chats::-webkit-scrollbar {
 
 .botAvatar {
     border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
+    width: 30px;
+    height: 30px;
     float: left;
     margin-left: 5px;
     /* border: 2px solid  #2c53af ; */
@@ -120,8 +118,8 @@ textarea-webkit-scrollbar {
     animation: animateElement linear 0.3s;
     animation-iteration-count: 1;
     border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
+    width: 30px;
+    height: 30px;
     float: right;
     margin-right: 5px;
     /* border: 2px solid  #2c53af ; */
@@ -164,14 +162,16 @@ textarea-webkit-scrollbar {
 .imgProfile {
     box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 #00000096;
     border-radius: 50px;
-    width: 60%;
+    width: 50px;
+    margin: 0 -15px;
 }
 
 .profile_div {
     /* display: none; */
     position: fixed;
+    margin: 20px 30px;
     padding: 5px;
-    width: 10%;
+    width: 50px;
     bottom: 0;
     right: 0;
     cursor: pointer;
